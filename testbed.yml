@@ -1,0 +1,6 @@
+from genie.testbed import load
+
+testbed = load('testbed.yml')
+
+router = testbed.devices['csr1000v']
+router.connect()
